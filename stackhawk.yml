@@ -1,0 +1,12 @@
+app:
+  applicationId: 7c250772-2ed6-4e54-adb1-e0bfc8c31fce
+  env: Development
+  host: http://localhost:10010
+tags:
+  - name: _STACKHAWK_GIT_COMMIT_SHA
+    value: ${ENV_VAR_FOR_COMMIT_SHA}
+  - name: _STACKHAWK_GIT_BRANCH
+    value: ${ENV_VAR_FOR_BRANCH}
+hawk:
+  # Add this if you want pull request comments to specifically call out findings at or above a failure threshold.
+  failureThreshold: medium
