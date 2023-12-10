@@ -1,7 +1,7 @@
 app:
   applicationId: 7c250772-2ed6-4e54-adb1-e0bfc8c31fce
   env: Development
-  host: http://localhost:10010
+  host: http://localhost:8080
 tags:
   - name: _STACKHAWK_GIT_COMMIT_SHA
     value: ${ENV_VAR_FOR_COMMIT_SHA}
